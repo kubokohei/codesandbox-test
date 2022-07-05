@@ -76,3 +76,7 @@ const message2 = `my name is ${name}, my age is ${age}@@@@`;
 console.log(message2);
 
 // 2022 / 07 / 05;
+// 変数は基本const（上書き、再宣言ができないから意図しないデータの挿入が起こらないかつ、オブジェクト、配列の中身は書き換え可能）
+// jsでは{}はオブジェクト（const val4 = {name: "kubo", age: 26};）
+// jsにおいて'と"は違いがないけど、同時に使うときはエスケープが必要になる（onclick="alert(\"hello world\")">）
+// テンプレート文字列``の中に${変数名}で文字列の中に変数を埋め込める
