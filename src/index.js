@@ -74,3 +74,5 @@ console.log(message1);
 // テンプレート文字列を使う方法
 const message2 = `my name is ${name}, my age is ${age}@@@@`;
 console.log(message2);
+
+// 2022 / 07 / 05;
